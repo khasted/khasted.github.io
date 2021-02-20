@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Katherine Hasted</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <ul class="navbar">
+        <a class="tab" href="#aboutme">About Me</a>
+        <a class="tab" href="#education">Education</li>
+        <a class="tab" href="#experience">Experience</a>
+        <a class="tab" href="#extracurriculars">Extracurriculars</a>
+        <a href="resources/Dec 2020 Resume.pdf">
+            <img id="resume" class="tab" src="resources/paper_icon_white.png" alt="resume">
+        </a>
+        <a href="https://www.linkedin.com/in/katherine-hasted-129597185/">
+            <img id="linkedin" class="tab" src="resources/linkedin_logo.png" alt="LinkedIn">
+        </a>
+        <a href="mailto:katherinehasted@gmail.com">
+            <img id="email" class="tab" src="resources/email_logo.png" alt="Email">
+        </a>
+    </ul>
+
+    <div class="header">
+        <img class="portrait" src="resources/portrait.jpg" alt="portrait">
+        <h1 class="name"> Katherine Hasted </h1>
+    </div>
+
+    <a name="aboutme"></a>
+    <div class="content">
+        <div class="aboutme">
+            <h1>About Me</h1>
+            <br>
+            <p>
+				I am a hardworking recent graduate of the University of Michigan with a major in sociology. I am in search of remote positions within Human Rescources or academic advising/counseling. Please look over my resume and contact me if you think you have a position for me.
+            </p>
+        </div>
+    </div>
+
+    <a name="education"></a>
+    <div class="content">
+        <div class="education">
+            <h1>Education</h1>
+
+            <div class="edu_split left">
+                <div class="school">
+                    <div class="school_header">
+                        <h2>University of Michigan</h2>
+                        <div class="school_info">
+                            <i>Ann Arbor, 2017 - 2020</i><br>
+                            <i>GPA: 3.23</i>
+                        </div>
+                    </div>
+                    <br>
+                    <p>
+                     I obtained a Bachelor's of Arts in Sociology and minor in Music in December 2020. My main area of interest in Sociolgy is Educational Inequality.  
+					</p>
+                </div>
+            </div>
+
+            <div class="edu_split right">
+				<button class="collapsible_vert" style="margin-top: 0;" onclick="openProject(event, '2017-2018', 'collapsible_vert', 'school_dropdown')">2017-2018</button>
+                <div class=" school_dropdown" id="2017-2018">
+                    <div class="subtitle" style="margin-top: 0;">
+                        Fall 2017
+                    </div>
+
+                    <ul class="bullets">
+                        <li>Introduction to Biological Anthropology (ANTHRBIO 201)</li>
+                        <li>General Chemistry (CHEM 130)</li>
+                        <li>General Chemistry Lab (Chem 125/126)</li>
+                        <li>Calculus 1 (MATH 115)</li>
+                        <li>Douglas Houghton Scholars Calc Workshop (MATH 145)</li>
+                    </ul>
+
+                    <div class="subtitle">
+                        Winter 2018
+                    </div>
+
+                    <ul class="bullets">
+                        <li>Intro Biology: Ecology and Evolutionary Biology (BIOLOGY 171)</li>
+                        <li>Academic Writing and Literature: The Surreal, Grotesque, and Fantastic (ENGLISH 124)</li>
+                        <li>Introduction to Psychology (PSYCH 111)</li>
+                        <li>Marching Band: Winterguard (ENS 348)</li>
+                    </ul>
+
+                </div>
+				
+				<button class="collapsible_vert" onclick="openProject(event, '2018-2019', 'collapsible_vert', 'school_dropdown')">2018-2019</button>
+                <div class=" school_dropdown" id="2018-2019">
+                    <div class="subtitle" style="margin-top: 0;">
+                        Fall 2018
+                    </div>
+
+                    <ul class="bullets">
+                        <li>Organic Chemistry 1 (CHEM 210)</li>
+                        <li>Organic Chemistry Lab (CHEM 211)</li>
+                        <li>Elementary Italian (ITALIAN 101)</li>
+						<li>Introduction to Public Health: Health and Society (PUBHLTH 200)</li>
+						<li>Elementary Italian (ITALIAN 101)</li>
+                        <li>Marching Band (ENS 348)</li>
+                    </ul>
+
+                    <div class="subtitle">
+                        Winter 2019
+                    </div>
+
+                    <ul class="bullets">
+                        <li>BLI Leadership Lab (ALA 170)</li>
+                        <li>Elementary Italian (ITALIAN 102)</li>
+                        <li>History of Music: Science Fiction Film Music (MUSICOL 346)</li>
+                        <li>Introducion to Statistics and Data Analysis (STATS 250)</li>
+                        <li>Marching Band: WInterguard (ENS 348)</li>
+                    </ul>
+
+                </div>
+
+                <button class="collapsible_vert" onclick="openProject(event, '2019-2020', 'collapsible_vert', 'school_dropdown')">2019-2020</button>
+                <div class="school_dropdown" id="2019-2020">
+                    <div class="subtitle" style="margin-top: 0;">
+                        Fall 2019
+                    </div>
+
+                    <ul class="bullets">
+						<li>Dinosaurs (EARTH 103)</li>
+                        <li>Planets and Moons (EARTH 113)</li>
+                        <li>Second Year Italian (ITALIAN 231)</li>
+                        <li>Introduction to Sociology: Health and Society (SOC 302)</li>
+                        <li>Marching Band (ENS 348)</li>
+                    </ul>
+                    <br>
+                    <div class="subtitle">
+                        Winter 2020
+                    </div>
+
+                    <ul class="bullets">
+                        <li>Second Year Italian: Italian Comics (ITALIAN 232)</li>
+                        <li>Introduction to Popular Music (MUSICOL 123)</li>
+                        <li>Project Outreach: Mind, Music, and Community (PSYCH 211)</li>
+                        <li>Sociological Research Methods (SOC 310)</li>
+						<li>Campus Band (ENS 346)</li>
+						<li>Marching Band: Winterguard (ENS 348)</li>
+                    </ul>
+
+                </div>
+
+                <button class="collapsible_vert" onclick="openProject(event, '2020-2021', 'collapsible_vert', 'school_dropdown')">2020-2021</button>
+                <div class="school_dropdown" id="2020-2021">
+					<div class="subtitle" style="margin-top: 0;">
+                        Spring 2020
+                    </div>
+
+                    <ul class="bullets">
+                        <li>Health, Medicine, and Society (SOC 475)</li>
+						<li>Great Lakes (EARTH 112)</li>
+						<li>Undergraduate Research</li>
+					</ul>
+					<br>
+
+					<div class="subtitle">
+                        Summer 2020
+                    </div>
+
+                    <ul class="bullets">
+                        <li>Introduction to Sociological Theory (SOC 305)</li>
+                        <li>Criminology (SOC 368)</li>
+                        <li>Undergraduate Research</li>
+					</ul>
+					<br>
+
+                    <div class="subtitle">
+                        Fall 2020
+                    </div>
+
+                    <ul class="bullets">
+                        <li>Population Problems: Dating, Marriage, and Fertility (SOC 330)</li>
+                        <li>Law and Society (SOC 354)</li>
+                        <li>Topics in Sociology: Census, Civics, and Voting (SOC 495)</li>
+						<li>Education to Work (ALA 325)</li>
+						<li>Campus Band (ENS 346)</li>
+						<li>Marching Band (ENS 348)</li>
+						<li>Undergraduate Research (SOC 394)</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a name="experience"></a>
+    <div class="content">
+        <div class="experience">
+            <h1>Work Experience</h1>
+        </div>
+
+        <div class="exp_section" style="margin-top: 0px;">
+            <div class="exp_heading">
+                <h2>University of Michigan, Department of Sociology</h2>
+                <h3>Research Assistant</h3>
+                <div class="location"><i>Ann Arbor, May 2020 - December 2020</i></div>
+            </div>
+            <div class="exp_body">
+                <div class="exp_split left">
+                    As an Undergraduate Research Assistant, I worked on two projects, one focused on criminology and the other on long term care. I did a weekly data collection of COVID cases in Long Term Care facilities in the state of Michigan.
+                    I also wrote literature reviews for sociological and criminological journals and texts and engaged in biweekly discussions with the research team.
+                </div>
+                <div class="exp_split right">
+                    <img class="logo" src="resources/soc-logo.png" alt>
+                </div>
+            </div>
+        </div>
+
+		<div class="line"></div>
+		
+		<div class="exp_section" style="margin-top: 0px;">
+            <div class="exp_heading">
+                <h2>Mi Coast</h2>
+                <h3>Retail Brand Ambassador</h3>
+                <div class="location"><i>South Haven, May 2018 - August 2019</i></div>
+            </div>
+            <div class="exp_body">
+                <div class="exp_split left">
+                    As an employee at Mi Coast, I did many things with the brand, including ensuring customer satisfaction through meaningful interactions, as well as managed inventory for the South Haven Location, assisted in interview/hiring process, as well as communicated directly with wholesale merchandisers.
+                </div>
+                <div class="exp_split right">
+                    <img class="logo" src="resources/Mi_Coast_white_200x.png" >
+                </div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+	</div>
+        
+    
+    <a name="extracurriculars"></a>
+    <div class="content" style="margin-bottom: 20px;">
+        <div class="extracurriculars ">
+            <h1>Extracurriculars</h1>
+        </div>
+
+        <div class="exp_section" style="margin-top: 0px;">
+            <div class="exp_heading">
+                <h2>Michigan Marching Band</h2>
+                <div class="location"><i>August 2018 - Dec 2020</i></div>
+            </div>
+            <div class="exp_body">
+                <div class="exp_split left">
+					I was member of the Flag Line in the Michigan Marching Band for 3 seasons and I served as a student leader my senior season. The MMB has shaped me to be the person I am today. The really great role models I encountered throughout my time in the MMB have shaped the way I act as a leader. 
+                </div>
+                <div class="exp_split right">
+                    <img class="logo" src="resources/bandphoto.JPG" >
+                </div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+    </div>
+
+    <script src="script.js "></script>
+</body>
+
+</html>
